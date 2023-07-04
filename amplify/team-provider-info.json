@@ -1,0 +1,20 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-yelp-staging-61150-authRole",
+      "UnauthRoleArn": "arn:aws:iam::902425142046:role/amplify-yelp-staging-61150-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::902425142046:role/amplify-yelp-staging-61150-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-yelp-staging-61150-deployment",
+      "UnauthRoleName": "amplify-yelp-staging-61150-unauthRole",
+      "StackName": "amplify-yelp-staging-61150",
+      "StackId": "arn:aws:cloudformation:us-east-1:902425142046:stack/amplify-yelp-staging-61150/1ab10560-c6e6-11ed-9735-123af3ec7677",
+      "AmplifyAppId": "d18e4rgjoghnfh"
+    },
+    "categories": {
+      "auth": {
+        "yelp": {}
+      }
+    }
+  }
+}

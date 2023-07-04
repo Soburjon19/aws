@@ -1,0 +1,55 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-yelp-staging-61150-authRole",
+      "UnauthRoleArn": "arn:aws:iam::902425142046:role/amplify-yelp-staging-61150-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::902425142046:role/amplify-yelp-staging-61150-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-yelp-staging-61150-deployment",
+      "UnauthRoleName": "amplify-yelp-staging-61150-unauthRole",
+      "StackName": "amplify-yelp-staging-61150",
+      "StackId": "arn:aws:cloudformation:us-east-1:902425142046:stack/amplify-yelp-staging-61150/1ab10560-c6e6-11ed-9735-123af3ec7677",
+      "AmplifyAppId": "d18e4rgjoghnfh"
+    }
+  },
+  "auth": {
+    "yelp": {
+      "customAuth": false,
+      "dependsOn": [],
+      "frontendAuthConfig": {
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "signupAttributes": [],
+        "socialProviders": [],
+        "usernameAttributes": [
+          "EMAIL"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "Cognito",
+      "output": {
+        "UserPoolId": "us-east-1_NCEojZikS",
+        "AppClientIDWeb": "5nm3bta276iotsra7ns84oo83v",
+        "AppClientID": "12jgsrmc9aa5htdgg6k69hd2fm",
+        "IdentityPoolId": "us-east-1:41546750-9eb1-421a-8039-36a41b4ed6f2",
+        "UserPoolArn": "arn:aws:cognito-idp:us-east-1:902425142046:userpool/us-east-1_NCEojZikS",
+        "IdentityPoolName": "testAuthIdentityPool__staging",
+        "UserPoolName": "yelp"
+      },
+      "lastPushTimeStamp": "2023-06-21T19:24:18.130Z",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-yelp-staging-61150-deployment/amplify-cfn-templates/auth/yelp-cloudformation-template.json",
+        "logicalId": "authyelp"
+      }
+    }
+  }
+}
